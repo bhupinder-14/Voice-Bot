@@ -1,0 +1,9 @@
+{
+    "trunk": {
+      "name": "pvilio inbound trunk",
+      "allowed_addresses": [
+        "54.172.60.0/30",
+        "54.244.51.0/30"
+      ]
+    }
+  }
