@@ -1,0 +1,15 @@
+
+services:
+  
+
+  agent2:
+    build:
+      context: ./holiday_tribes
+      dockerfile: Dockerfile
+    image: lk_agent_holidaytribe:1.0
+    env_file: holiday_tribes/.env.local
+    environment:
+      xx: "yy"
+    entrypoint: [ "python3", "agent.py" , "dev"]
+
+
